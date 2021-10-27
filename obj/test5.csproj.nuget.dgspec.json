@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\test5\\test5.csproj": {}
+    "C:\\projects\\Kentico-kontent-delivery-sdk-net-issues-285\\test5.csproj": {}
   },
   "projects": {
-    "C:\\projects\\test5\\test5.csproj": {
+    "C:\\projects\\Kentico-kontent-delivery-sdk-net-issues-285\\test5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\test5\\test5.csproj",
+        "projectUniqueName": "C:\\projects\\Kentico-kontent-delivery-sdk-net-issues-285\\test5.csproj",
         "projectName": "test5",
-        "projectPath": "C:\\projects\\test5\\test5.csproj",
+        "projectPath": "C:\\projects\\Kentico-kontent-delivery-sdk-net-issues-285\\test5.csproj",
         "packagesPath": "C:\\Users\\OndrejCh\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\test5\\obj\\",
+        "outputPath": "C:\\projects\\Kentico-kontent-delivery-sdk-net-issues-285\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,6 +46,14 @@
             "Kentico.Kontent.Delivery": {
               "target": "Package",
               "version": "[15.0.1-beta1, )"
+            },
+            "Kentico.Kontent.Delivery.Caching": {
+              "target": "Package",
+              "version": "[15.0.1-beta1, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
