@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "AngleSharp/0.14.0": {
         "type": "package",
         "dependencies": {
@@ -3151,7 +3151,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
       "Kentico.Kontent.Delivery >= 15.0.1-beta1"
     ]
   },
@@ -3162,11 +3162,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\test\\test.csproj",
-      "projectName": "test",
-      "projectPath": "C:\\projects\\test\\test.csproj",
+      "projectUniqueName": "C:\\projects\\test5\\test5.csproj",
+      "projectName": "test5",
+      "projectPath": "C:\\projects\\test5\\test5.csproj",
       "packagesPath": "C:\\Users\\OndrejCh\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\test\\obj\\",
+      "outputPath": "C:\\projects\\test5\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3176,15 +3176,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -3195,8 +3195,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Kentico.Kontent.Delivery": {
             "target": "Package",
@@ -3221,7 +3221,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
